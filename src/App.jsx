@@ -1,15 +1,28 @@
-import './App.css'
+import Banner from "./Components/Banner/Banner";
+import Header from "./Components/Header/Header";
+import OurRecipes from "./Components/OurRecipes/OurRecipes";
+import Recipes from "./Components/Recipes/Recipes";
+import Sidebar from "./Components/Sidebar/Sidebar";
 
-function App() {
-  
-
+const App = () => {
   return (
-    <>
-        <h1 className="text-3xl font-bold underline bg-slate-600">
-      Hello world!
-    </h1>
-    </>
-  )
-}
+    <div className="container mx-auto px-4">
+      {/* Header */}
+      <Header></Header>
+      {/* Banner */}
+      <Banner></Banner>
+      {/* Our Recipes Section */}
+      <OurRecipes></OurRecipes>
 
-export default App
+      {/* Recipes Cards Section */}
+      <section className="flex flex-col md:flex-row gap-6">
+        {/* Cards Section */}
+        <Recipes></Recipes>
+        {/* Sidebar */}
+        <Sidebar></Sidebar>
+      </section>
+    </div>
+  );
+};
+
+export default App;

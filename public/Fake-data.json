@@ -1,0 +1,92 @@
+[
+    {
+        "recipe_image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=1706&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "recipe_id": "001",
+        "recipe_name": "Chicken Stir Fry",
+        "short_description": "A quick and flavorful chicken stir fry with vegetables.",
+        "ingredients": [
+            "550 g chicken",
+            "120 ml soy sauce",
+            "200 g bell peppers",
+            "100 g broccoli",
+            "2 cloves garlic"
+        ],
+        "preparing_time": "30 min",
+        "calories": "320 calories"
+    },
+    {
+        "recipe_image": "https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "recipe_id": "002",
+        "recipe_name": "Spaghetti Bolognese",
+        "short_description": "Classic Italian pasta dish with a rich meat sauce.",
+        "ingredients": [
+            "400 g spaghetti",
+            "250 g ground beef",
+            "100 g onions",
+            "200 g tomato sauce",
+            "50 g parmesan cheese"
+        ],
+        "preparing_time": "45 min",
+        "calories": "500 calories"
+    },
+    {
+        "recipe_image": "https://plus.unsplash.com/premium_photo-1705557700049-d3a2d911e812?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "recipe_id": "003",
+        "recipe_name": "Vegan Tacos",
+        "short_description": "Delicious tacos filled with fresh veggies and beans.",
+        "ingredients": [
+            "6 corn tortillas",
+            "200 g black beans",
+            "100 g corn",
+            "150 g avocado",
+            "50 g cilantro"
+        ],
+        "preparing_time": "20 min",
+        "calories": "250 calories"
+    },
+    {
+        "recipe_image": "https://plus.unsplash.com/premium_photo-1705256743195-42b47476b82f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "recipe_id": "004",
+        "recipe_name": "Fluffy Pancakes",
+        "short_description": "Light and fluffy pancakes perfect for breakfast.",
+        "ingredients": [
+            "200 g flour",
+            "300 ml milk",
+            "2 eggs",
+            "50 g sugar",
+            "10 g baking powder"
+        ],
+        "preparing_time": "25 min",
+        "calories": "400 calories"
+    },
+    {
+        "recipe_image": "https://images.unsplash.com/photo-1563897539633-7374c276c212?q=80&w=1646&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "recipe_id": "005",
+        "recipe_name": "Chocolate Mousse",
+        "short_description": "Rich and creamy chocolate mousse dessert.",
+        "ingredients": [
+            "200 g dark chocolate",
+            "3 eggs",
+            "100 ml heavy cream",
+            "50 g sugar",
+            "1 tsp vanilla extract"
+        ],
+        "preparing_time": "15 min",
+        "calories": "450 calories"
+    },
+    {
+        "recipe_image": "https://images.unsplash.com/photo-1564844536314-d10452ebf092?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "recipe_id": "006",
+        "recipe_name": "Greek Salad",
+        "short_description": "A refreshing salad with feta cheese and olives.",
+        "ingredients": [
+            "200 g tomatoes",
+            "100 g cucumber",
+            "50 g feta cheese",
+            "30 g olives",
+            "2 tbsp olive oil"
+        ],
+        "preparing_time": "10 min",
+        "calories": "180 calories"
+    }
+]
