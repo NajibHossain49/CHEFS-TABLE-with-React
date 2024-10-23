@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "remixicon/fonts/remixicon.css"; // Import the Remix Icons CSS
-const Recipes = () => {
+const Recipes = ({addSelectedRecipe}) => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
@@ -14,7 +14,7 @@ const Recipes = () => {
       {/* Cards layout */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-14">
         {recipes.map((recipe, index) => (
-          <div key={index} className="card bg-base-100  shadow-xl">
+          <div key={index} className="card bg-base-100  shadow-xl border border-gray-300">
             <figure className="px-8 pt-6">
               <img
                 className="w-full md:h-52 rounded-xl"
@@ -51,7 +51,9 @@ const Recipes = () => {
               </div>
 
               <div className="card-actions justify-start">
-                <button className="bg-[#0BE58A] rounded-full py-3 px-4">
+                <button onClick={() => {
+                 addSelectedRecipe(recipe) 
+                }} className="bg-[#0BE58A] rounded-full py-3 px-4">
                   View Recipe
                 </button>
               </div>
