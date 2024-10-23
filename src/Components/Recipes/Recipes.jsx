@@ -54,7 +54,7 @@ const Recipes = ({addSelectedRecipe}) => {
                 <button onClick={() => {
                  addSelectedRecipe(recipe) 
                 }} className="bg-[#0BE58A] rounded-full py-3 px-4">
-                  View Recipe
+                  Want to Cook
                 </button>
               </div>
             </div>
