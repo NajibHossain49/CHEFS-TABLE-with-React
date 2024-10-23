@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "remixicon/fonts/remixicon.css"; // Import the Remix Icons CSS
-const Recipes = ({addSelectedRecipe}) => {
+const Recipes = ({ addSelectedRecipe }) => {
   const [recipes, setRecipes] = useState([]);
 
   useEffect(() => {
@@ -14,7 +14,10 @@ const Recipes = ({addSelectedRecipe}) => {
       {/* Cards layout */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-14">
         {recipes.map((recipe, index) => (
-          <div key={index} className="card bg-base-100  shadow-xl border border-gray-300">
+          <div
+            key={index}
+            className="card bg-base-100  shadow-xl border border-gray-300"
+          >
             <figure className="px-8 pt-6">
               <img
                 className="w-full md:h-52 rounded-xl"
@@ -39,7 +42,7 @@ const Recipes = ({addSelectedRecipe}) => {
                 <div className="flex items-center space-x-2">
                   <i className="ri-time-line text-gray-500 text-xl"></i>{" "}
                   {/* Time icon */}
-                  <span>{recipe.preparing_time} </span> {/* Recipe time */}
+                  <span>{recipe.preparing_time} min</span> {/* Recipe time */}
                 </div>
 
                 {/* Calorie Icon and Label */}
@@ -51,9 +54,12 @@ const Recipes = ({addSelectedRecipe}) => {
               </div>
 
               <div className="card-actions justify-start">
-                <button onClick={() => {
-                 addSelectedRecipe(recipe) 
-                }} className="bg-[#0BE58A] rounded-full py-3 px-4">
+                <button
+                  onClick={() => {
+                    addSelectedRecipe(recipe);
+                  }}
+                  className="bg-[#0BE58A] rounded-full py-3 px-4"
+                >
                   Want to Cook
                 </button>
               </div>

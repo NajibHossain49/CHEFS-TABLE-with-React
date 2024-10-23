@@ -11,8 +11,8 @@
             "100 g broccoli",
             "2 cloves garlic"
         ],
-        "preparing_time": "30 min",
-        "calories": "320 calories"
+        "preparing_time": "30",
+        "calories": "320 "
     },
     {
         "recipe_image": "https://images.unsplash.com/photo-1547592180-85f173990554?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -26,8 +26,8 @@
             "200 g tomato sauce",
             "50 g parmesan cheese"
         ],
-        "preparing_time": "45 min",
-        "calories": "500 calories"
+        "preparing_time": "45",
+        "calories": "500 "
     },
     {
         "recipe_image": "https://plus.unsplash.com/premium_photo-1705557700049-d3a2d911e812?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -41,8 +41,8 @@
             "150 g avocado",
             "50 g cilantro"
         ],
-        "preparing_time": "20 min",
-        "calories": "250 calories"
+        "preparing_time": "20",
+        "calories": "250 "
     },
     {
         "recipe_image": "https://plus.unsplash.com/premium_photo-1705256743195-42b47476b82f?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -56,8 +56,8 @@
             "50 g sugar",
             "10 g baking powder"
         ],
-        "preparing_time": "25 min",
-        "calories": "400 calories"
+        "preparing_time": "25",
+        "calories": "400 "
     },
     {
         "recipe_image": "https://images.unsplash.com/photo-1563897539633-7374c276c212?q=80&w=1646&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -71,8 +71,8 @@
             "50 g sugar",
             "1 tsp vanilla extract"
         ],
-        "preparing_time": "15 min",
-        "calories": "450 calories"
+        "preparing_time": "15",
+        "calories": "450 "
     },
     {
         "recipe_image": "https://images.unsplash.com/photo-1564844536314-d10452ebf092?q=80&w=1742&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -86,7 +86,7 @@
             "30 g olives",
             "2 tbsp olive oil"
         ],
-        "preparing_time": "10 min",
-        "calories": "180 calories"
+        "preparing_time": "10 ",
+        "calories": "180 "
     }
 ]
