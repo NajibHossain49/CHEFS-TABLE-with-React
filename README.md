@@ -1,6 +1,6 @@
 # Taste Makers' Table
 
-Welcome to **Taste Makers' Table**, a ## _single-page application (SPA) built with React._## This application showcases the culinary delights from various chefs, allowing users to explore and appreciate diverse recipes. 
+Welcome to **Taste Makers' Table**, a _single-page application (SPA) built with React._ This application showcases the culinary delights from various chefs, allowing users to explore and appreciate diverse recipes. 
 
 ## Table of Contents
 
