@@ -1,6 +1,6 @@
 const Banner = () => {
     return (
-      <section className="relative bg-cover bg-center w-[1320px] h-[600px] mx-auto rounded-2xl overflow-hidden mt-5" style={{ backgroundImage: `url('https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')` }}>
+      <section className="relative bg-cover bg-center w-[1320px] h-[600px] mx-auto rounded-2xl overflow-hidden mt-5" style={{ backgroundImage: `url('https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')` }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-center text-white px-4">
           {/* Banner Title */}
